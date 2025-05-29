@@ -1,5 +1,5 @@
 .jumbotron {
-  padding-top: 4rem;
+  padding-top: 5rem;
   background-color: #ca7842;
 }
 body {
@@ -9,6 +9,51 @@ body {
 
 section {
   padding-top: 4rem;
+  margin: 0;
+  overflow: hidden;
+}
+
+.card {
+  background-color: #4b352a;
+}
+
+svg {
+  margin-bottom: -1.5rem;
+}
+
+/* CSS for the 'Info Loker!' button */
+a.btn {
+  background-color: #4b352a;
+  color: #fff;
+  padding: 0.5rem 1.25rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 0.375rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+a.btn:hover,
+a.btn:focus {
+  background-color: #6b563f;
+  color: #f0f2bd;
+  text-decoration: none;
+  outline: none;
+}
+
+a.btn:active {
+  background-color: #3a2a20;
+  color: #fff;
+}
+
+/* Optional: add box-shadow for a modern effect */
+a.btn {
+  box-shadow: 0 4px 8px rgba(75, 53, 42, 0.3);
+}
+
+a.btn:hover {
+  box-shadow: 0 6px 12px rgba(75, 53, 42, 0.5);
 }
 
 .social-links a {
